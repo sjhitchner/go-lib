@@ -99,7 +99,6 @@ func main() {
 
 	fileName := "jsondate_generated.go"
 	f, isNew, err := libio.OpenForAppendOrNew(fileName)
-	fmt.Println(f)
 	if err != nil {
 		Error(err.Error())
 	}
